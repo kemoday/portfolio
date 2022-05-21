@@ -20,8 +20,8 @@
     <nav id="nav">
       <ul class="container">
         <li><a href="#top">About</a></li>
-        <li><a href="#work">Work</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#technology ">Technology </a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -29,7 +29,7 @@
     <!-- Home -->
     <article
       style="
-        background-size: contain;
+        background-size: cover;
         background-image: url('./images/hero.jpg');
       "
       id="top"
@@ -40,11 +40,12 @@
           <div class="col-4 col-5-large col-12-medium">
             <span class="image fit"
               ><img src="images/kemoday.png" alt="Mohamed Awde"
+              style="border: 5px solid #ccc; padding: 10px"
             /></span>
             <div class="main-urls">
               <a  target="_blank" href="https://app.box.com/s/8njcyjnm91e9og5uirvkfpughbccypoc">CV</a>
               <a  target="_blank" class="brands icon fa-github" href="https://github.com/kemoday"> </a>
-              <a  target="_blank" href="mailto:kemoday@gmail.com"><li class="fa fa-envelope"></li> </a>
+              <a  target="_blank" href="mailto:mohamedawde101@gmail.com"><li class="fa fa-envelope"></li> </a>
             </div>
           </div>
           <div class="col-8 col-7-large col-12-medium">
@@ -60,7 +61,7 @@
               <a class="scrolly" href="#contact"><strong>contact me NOW!</strong></a> .
             </p>
             <p>
-              <a href="#work" class="button large scrolly"
+              <a href="#portfolio" class="button large scrolly"
                 >Learn about what I do</a
               >
             </p></div
@@ -68,48 +69,55 @@
         </div>
       </div>
     </article>
-
+ <!-- Portfolio -->
+ <article id="portfolio" class="wrapper style3"
+ style="padding-top: 4rem;"
+ >
+  <div class="container">
+    <header>
+      <h2>Here’s some stuff I made recently.</h2>
+      <p
+        >Here are a few <strong>MERN projects</strong> I've worked on
+        recently. Want to see more?
+        <a class="scrolly" target="_blank" href="mailto:mohamedawde101@gmail.com"
+          >Email me</a
+        >
+      </p>
+    </header>
+    <header>
+      <h2>ReactJs,NodeJs,MongoDB Projects</h2>
+    </header>
+    <div class="row">
+      <div class="col-4 col-6-medium col-12-small">
+        <article class="box style2">
+          <a href="https://kemoday.github.io/polls-react-app/" target="_blank" class="image featured"
+            ><img style="border-bottom: 1px solid #333333;" src="images/polls-react-app.jpg" alt=""
+          /></a>
+          <h3><a target="_blank" href="https://kemoday.github.io/polls-react-app/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/polls-react-app/">Code</a></h3>
+          <p>Create and share polls</p>
+        </article>
+      </div>
+      
+      <div class="col-4 col-6-medium col-12-small">
+        <article class="box style2">
+          <a href="https://kemoday.github.io/homepets-forms-react-app/" target="_blank" class="image featured"
+            ><img style="border-bottom: 1px solid #333333;" src="images/homepets-forms.png" alt=""
+          /></a>
+          <h3><a target="_blank" href="https://kemoday.github.io/homepets-forms-react-app/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/homepets-forms-react-app/">Code</a></h3>
+          <p>An Pets Owners Online Form</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <a href="#contact" class="button large scrolly"
+        >Get in touch with me</a
+      >
+    </footer>
+  </div>
+</article>
     <!-- Work -->
-    <article id="work" class="wrapper style2">
+    <article id="technology" class="wrapper style2">
       <div class="container">
-        <header>
-          <h2>Here's all the stuff I do.</h2>
-        </header>
-        <div class="row aln-center">
-          <div class="col-4 col-6-medium col-12-small">
-            <section class="box style1">
-              <span class="icon featured fa-comments"></span>
-              <h3>Communicating</h3>
-              <p
-                >two head are better than one, communication is an essential
-                part of any productive team</p
-              >
-            </section>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <section class="box style1">
-              <span class="icon solid featured fa-child"></span>
-              <h3>Great UX</h3>
-              <p
-                >no organization will grow if it didn't take care of its
-                clients, so I always focus on the end-user and how my solution
-                will impact his life.</p
-              >
-            </section>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <section class="box style1">
-              <span class="icon featured fa-thumbs-up"></span>
-              <h3>Always Learning</h3>
-              <p
-                >"if all you have is a hammer, everything looks like a nail"so
-                you need more tools (technologies) because if you try to fix
-                everything with a hammer you will probably breaking
-                something.</p
-              >
-            </section>
-          </div>
-        </div>
         <header style="margin-top: 1rem;">
           <h2>Technology familiar to me</h2>
           <p>I worked with those technologies before</p>
@@ -143,77 +151,6 @@
       </div>
    
 
-    <!-- Portfolio -->
-    <article id="portfolio" class="wrapper style3">
-      <div class="container">
-        <header>
-          <h2>Here’s some stuff I made recently.</h2>
-          <p
-            >Here are a few <strong>MERN projects</strong> I've worked on
-            recently. Want to see more?
-            <a class="scrolly" target="_blank" href="mailto:kemoday@gmail.com"
-              >Email me</a
-            >
-          </p>
-        </header>
-        <header>
-          <h2>Reactjs Projects</h2>
-        </header>
-        <div class="row">
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="https://kemoday.github.io/polls-react-app/" target="_blank" class="image featured"
-                ><img style="border-bottom: 1px solid #333333;" src="images/polls-react-app.jpg" alt=""
-              /></a>
-              <h3><a target="_blank" href="https://kemoday.github.io/polls-react-app/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/polls-react-app/">Code</a></h3>
-              <p>Create and share polls</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="https://kemoday.github.io/blogging-react-app/" target="_blank" class="image featured"
-                ><img style="border-bottom: 1px solid #333333;" src="images/blogging.png" alt=""
-              /></a>
-              <h3><a target="_blank" href="https://kemoday.github.io/blogging-react-app/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/blogging-react-app">Code</a></h3>
-              <p>Blogging React App</p>
-            </article>
-          </div> 
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="https://kemoday.github.io/panel-plus-animation-ui/" target="_blank" class="image featured"
-                ><img style="border-bottom: 1px solid #333333;" src="images/static ui.png" alt=""
-              /></a>
-              <h3><a target="_blank" href="https://kemoday.github.io/panel-plus-animation-ui/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/panel-plus-animation-ui">Code</a></h3>
-              <p>Static UI With Animation</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="https://kemoday.github.io/react-weather-app/" target="_blank" class="image featured"
-                ><img style="border-bottom: 1px solid #333333;" src="images/Weather App.PNG" alt=""
-              /></a>
-              <h3><a target="_blank" href="https://kemoday.github.io/react-weather-app/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/react-weather-app">Code</a></h3>
-              <p>Reactjs Weather App</p>
-            </article>
-          </div>
-          <div class="col-4 col-6-medium col-12-small">
-            <article class="box style2">
-              <a href="https://kemoday.github.io/homepets-forms-react-app/" target="_blank" class="image featured"
-                ><img style="border-bottom: 1px solid #333333;" src="images/homepets-forms.png" alt=""
-              /></a>
-              <h3><a target="_blank" href="https://kemoday.github.io/homepets-forms-react-app/">Demo</a> | <a target="_blank" href="https://github.com/kemoday/homepets-forms-react-app/">Code</a></h3>
-              <p>An Pets Owners Online Form</p>
-            </article>
-          </div>
-        </div>
-        <footer>
-          <a href="#contact" class="button large scrolly"
-            >Get in touch with me</a
-          >
-        </footer>
-      </div>
-    </article>
-
     <!-- Contact -->
     <article id="contact" class="wrapper style4">
       <div class="container medium">
@@ -225,8 +162,8 @@
                 style="font-size: 2rem !important"
                 class="fa fa-envelope"
               ></li>
-              <a href="mailto:kemoday@gmail.com" target="_blank"
-                >Email: kemoday@gmail.com</a
+              <a href="mailto:mohamedawde101@gmail.com" target="_blank"
+                >Email: mohamedawde101@gmail.com</a
               >
             </strong>
           </p>
@@ -240,47 +177,9 @@
             </strong>
           </p>
         </header>
-
-        <div class="row">
-          <div class="col-12">
-            <hr />
-            <h3>Find me on ...</h3>
-            <ul class="social">
-              <li
-                ><a
-                  href="https://twitter.com/kemoday"
-                  class="icon brands fa-twitter"
-                  ><span class="label">Twitter</span></a
-                ></li
-              >
-              <li
-                ><a href="#" class="icon brands fa-facebook-f"
-                  ><span class="label">Facebook</span></a
-                ></li
-              >
-              <li
-                ><a
-                  href="https://www.linkedin.com/in/kemoday/"
-                  class="icon brands fa-linkedin-in"
-                  ><span class="label">LinkedIn</span></a
-                ></li
-              >
-
-              <li
-                ><a
-                  href="https://github.com/kemoday"
-                  class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                ></li
-              >
-            </ul>
-            <hr />
-          </div>
-        </div>
         <footer>
           <ul id="copyright">
-            <li>&copy; Untitled. All rights reserved.</li
-            ><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy; Mohamed Awde. All rights reserved.</li>
           </ul>
         </footer>
       </div>
