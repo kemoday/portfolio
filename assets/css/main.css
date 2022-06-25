@@ -2594,3 +2594,9 @@ body > article {
   cursor: zoom-in;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+#top > div > div > div.col-8.col-7-large.col-12-medium > p:nth-child(2) {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
